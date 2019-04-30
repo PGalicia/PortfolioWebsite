@@ -39,6 +39,10 @@
     font-weight: 900;
     font-size: 115px;
     letter-spacing: 10px;
+
+    &#galicia {
+      letter-spacing: 17px;
+    }
   }
 
   #masked {
@@ -51,12 +55,22 @@
   font-family: "Karla", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  width: 70%;
-  position: relative;
-  left: 8%;
+  width: 100%;
 
   > * {
     margin-bottom: 10px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  div {
+    position: relative;
+    width: 626px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
   }
 
   .typewriter {

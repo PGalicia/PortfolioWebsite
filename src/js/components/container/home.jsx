@@ -26,10 +26,22 @@ class Home extends Component {
           <svg width="100%" height="100%">
             <mask id="maskLayer">
               <rect width="100%" height="100%" fill="#fff" />
-              <text x="205" y="40%" className="name" id="patrick">
+              <text
+                x="50%"
+                y="40%"
+                text-anchor="middle"
+                className="name"
+                id="patrick"
+              >
                 PATRICK
               </text>
-              <text x="205" y="95%" className="name" id="galicia">
+              <text
+                x="50%"
+                y="90%"
+                text-anchor="middle"
+                className="name"
+                id="galicia"
+              >
                 GALICIA
               </text>
             </mask>
@@ -39,7 +51,7 @@ class Home extends Component {
         </div>
         <div className="header-texts">
           <p>I'm an Aspiring Full Stack Developer</p>
-          <p>
+          <div>
             and I'm also<span> </span>
             <Typed
               className="typewriter"
@@ -50,7 +62,7 @@ class Home extends Component {
               cursorChar="_"
               loop
             />
-          </p>
+          </div>
         </div>
       </section>
     );
