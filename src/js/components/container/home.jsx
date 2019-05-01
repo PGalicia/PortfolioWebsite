@@ -3,8 +3,8 @@
 */
 import React, { Component } from "react"; // React
 import "./../../../scss/home.scss"; // SCSS
-import Typed from "react-typed"; // React-Typed
-import { TYPEWRITER_TEXT } from "./../../constants/typewriterTexts.js"; // Constants
+import HomeNavBar from "./../presentational/homeNavBar.jsx"; // Component
+import HomeHeader from "./../presentational/homeHeader.jsx"; // Component
 
 class Home extends Component {
   constructor() {
@@ -14,56 +14,49 @@ class Home extends Component {
   render() {
     return (
       <section className="home-container">
-        <nav className="navbar-container">
-          <p className="navlink" id="work">
-            WORK.
-          </p>
-          <p className="navlink" id="about">
-            ABOUT.
-          </p>
-        </nav>
-        <div className="header-image">
-          <svg width="100%" height="100%">
-            <mask id="maskLayer">
-              <rect width="100%" height="100%" fill="#fff" />
-              <text
-                x="50%"
-                y="40%"
-                text-anchor="middle"
-                className="name"
-                id="patrick"
-              >
-                PATRICK
-              </text>
-              <text
-                x="50%"
-                y="90%"
-                text-anchor="middle"
-                className="name"
-                id="galicia"
-              >
-                GALICIA
-              </text>
-            </mask>
+        {/* Home Navigation Bar */}
+        <HomeNavBar />
 
-            <rect id="masked" width="100%" height="100%" fill="#f8f8fa" />
-          </svg>
-        </div>
-        <div className="header-texts">
-          <p>I'm an Aspiring Full Stack Developer</p>
-          <div>
-            and I'm also<span> </span>
-            <Typed
-              className="typewriter"
-              strings={TYPEWRITER_TEXT}
-              typeSpeed={40}
-              backSpeed={50}
-              backDelay={1000}
-              cursorChar="_"
-              loop
-            />
+        {/* Home Header */}
+        <HomeHeader />
+
+        {/* Project List */}
+        <section className="projects-container">
+          <div className="project-container" id="event-planner">
+            <h3>EVENT PLANNER</h3>
+            <p>Event Planner App</p>
           </div>
-        </div>
+          <div className="project-container" id="wisely">
+            <h3>WISELY</h3>
+            <p>Budget Management App</p>
+          </div>
+          <div className="project-container" id="cocktail-finder">
+            <h3>
+              COCKTAIL
+              <br />
+              FINDER
+            </h3>
+            <p>Web App</p>
+          </div>
+          <div className="project-container" id="healthy-campus-initiative">
+            <h3>
+              HEALTHY
+              <br />
+              CAMPUS
+              <br />
+              INITIATIVE
+            </h3>
+            <p>Website</p>
+          </div>
+          <div className="project-container" id="scrapyard">
+            <h3>SCRAPYARD</h3>
+            <p>Pseudo E-Commerce Website</p>
+          </div>
+          <div className="project-container" id="seance">
+            <h3>SEANCE</h3>
+            <p>Game</p>
+          </div>
+        </section>
       </section>
     );
   }

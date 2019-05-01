@@ -1,0 +1,23 @@
+@import "utils";
+
+.navbar-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+  .navlink {
+    position: absolute;
+    font-weight: 700;
+    font-size: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &#about {
+      right: 50px;
+    }
+
+    &#work {
+      right: 150px;
+    }
+  }
+}

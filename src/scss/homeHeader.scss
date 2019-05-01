@@ -1,0 +1,57 @@
+@import "utils";
+
+.header-image {
+  position: relative;
+  background-color: orange;
+  width: 90%;
+  height: 240px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  background-image: url(./../assets/nameBackground.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 115px;
+    letter-spacing: 10px;
+
+    &#galicia {
+      letter-spacing: 17px;
+    }
+  }
+
+  #masked {
+    mask: url("#maskLayer");
+  }
+}
+
+.header-texts {
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  width: 100%;
+
+  > * {
+    margin-bottom: 10px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  div {
+    position: relative;
+    width: 626px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .typewriter {
+    color: $body-accent-color;
+  }
+}
