@@ -1,5 +1,8 @@
 import React from "react"; // React
 import "./../../../scss/projectList.scss"; // SCSS
+import LookOutMan from "./../../../assets/projectImg/lookOutMan.png";
+import Candle from "./../../../assets/projectImg/candle.png";
+import UCI from "./../../../assets/projectImg/uci.png";
 
 const ProjectList = props => {
   return (
@@ -19,6 +22,7 @@ const ProjectList = props => {
           FINDER
         </h3>
         <p>Web App</p>
+        <img src={LookOutMan} />
       </div>
       <div className="project-container" id="healthy-campus-initiative">
         <h3>
@@ -29,6 +33,7 @@ const ProjectList = props => {
           INITIATIVE
         </h3>
         <p>Website</p>
+        <img src={UCI} />
       </div>
       <div className="project-container" id="scrapyard">
         <h3>SCRAPYARD</h3>
@@ -37,6 +42,7 @@ const ProjectList = props => {
       <div className="project-container" id="seance">
         <h3>SEANCE</h3>
         <p>Game</p>
+        <img src={Candle} />
       </div>
     </section>
   );

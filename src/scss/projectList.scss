@@ -10,9 +10,15 @@
   grid-gap: 10px;
 
   .project-container {
+    position: relative;
     box-sizing: border-box;
     padding: 10px;
     cursor: pointer;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+    }
 
     h3 {
       color: $body-font-color-white;
@@ -20,6 +26,7 @@
       font-weight: 900;
       font-size: 36px;
       letter-spacing: 3px;
+      z-index: 5;
     }
 
     p {
@@ -42,12 +49,24 @@
       background-color: #fad8a8;
       grid-column: 2 / -1;
       height: 189px;
+
+      img {
+        width: 132px;
+        top: 27px;
+        right: 22px;
+      }
     }
 
     &#healthy-campus-initiative {
       background-color: #ffd200;
       grid-column: 2 / -1;
       height: 216px;
+
+      img {
+        width: 130px;
+        top: 34px;
+        right: 12px;
+      }
     }
 
     &#scrapyard {
@@ -59,6 +78,13 @@
     &#seance {
       background-color: #2a1322;
       height: 189px;
+
+      img {
+        width: 116px;
+        bottom: -29px;
+        right: 12px;
+        transform: translateX(-50%);
+      }
     }
   }
 }
