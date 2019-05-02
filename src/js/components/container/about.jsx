@@ -26,6 +26,14 @@ class About extends Component {
 
         {/* Toolbox Component */}
         <Skill skills={SKILLS} />
+
+        <p>
+          If you have any questions or just want to say hi, please email me @{" "}
+          <span>galicia.patrick@gmail.com</span>. If you just want my resume,
+          here you go...
+        </p>
+
+        <button>VIEW MY RESUME</button>
       </section>
     );
   }

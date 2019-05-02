@@ -7,7 +7,9 @@
       margin-bottom: 15px;
     }
     p {
-      width: 644px;
+      max-width: 644px;
+      min-width: 580px;
+      width: auto;
       font-size: 36px;
       letter-spacing: 2px;
       line-height: 1.15;
