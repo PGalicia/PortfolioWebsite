@@ -1,29 +1,10 @@
 @import "utils";
 
 .experiences-container {
-  width: 85%;
-  margin: 0 auto;
-
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 64px;
-    color: $body-accent-color;
-    letter-spacing: 3px;
-    margin-bottom: 75px;
-  }
-
   .experience-container {
     position: relative;
     width: 100%;
     margin-bottom: 50px;
-
-    h3 {
-      font-size: 36px;
-      color: $body-accent-color-red;
-      font-weight: 700;
-      letter-spacing: 1px;
-    }
 
     h4 {
       font-size: 24px;
