@@ -9,13 +9,11 @@
       height: 500px;
 
       img {
-        // top: -407px;
         bottom: 0;
         width: 100%;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        // transform: scale(1.15);
       }
     }
 
@@ -48,33 +46,24 @@
 
 .profile-overview-container {
   width: 85%;
-  // height: 660px;
   margin-top: 75px;
   margin-bottom: 75px;
   display: grid;
-  // grid-template-columns: 401px auto;
   grid-column-gap: 25px;
 
   .image-container {
     position: relative;
-    // grid-column: 1;
-    // grid-row: 1 / span 4;
 
     overflow: hidden;
-    // width: 401px;
 
     img {
       position: absolute;
-      // top: -82px;
-      // width: 517px;
-      // transform: scale(1.15);
     }
   }
 
   .text-container {
     box-sizing: border-box;
     padding: 10px;
-    // grid-column: 2;
 
     h2 {
       font-family: "Montserrat", sans-serif;

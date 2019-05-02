@@ -2,36 +2,13 @@ import React from "react"; // React
 import "./../../../scss/homeHeader.scss"; // SCSS
 import Typed from "react-typed"; // React-Typed
 import { TYPEWRITER_TEXT } from "./../../constants/typewriterTexts.js"; // Constants
+import Header from "./../../../assets/header.svg"; // Asset
 
 const HomeHeader = props => {
   return (
     <>
       <div className="header-image">
-        <svg width="100%" height="100%">
-          <mask id="maskLayer">
-            <rect width="100%" height="100%" fill="#fff" />
-            <text
-              x="50%"
-              y="40%"
-              text-anchor="middle"
-              className="name"
-              id="patrick"
-            >
-              PATRICK
-            </text>
-            <text
-              x="50%"
-              y="90%"
-              text-anchor="middle"
-              className="name"
-              id="galicia"
-            >
-              GALICIA
-            </text>
-          </mask>
-
-          <rect id="masked" width="100%" height="100%" fill="#f8f8fa" />
-        </svg>
+        <img src={Header} />
       </div>
       <div className="header-texts">
         <p>I'm an Aspiring Full Stack Developer</p>

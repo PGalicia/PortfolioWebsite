@@ -2,29 +2,17 @@
 
 .header-image {
   position: relative;
-  background-color: orange;
-  width: 90%;
-  height: 240px;
+  width: 652px;
+  height: 303px;
   margin: 0 auto;
   margin-bottom: 50px;
+  overflow: hidden;
 
-  background-image: url(./../assets/nameBackground.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  .name {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 115px;
-    letter-spacing: 10px;
-
-    &#galicia {
-      letter-spacing: 17px;
-    }
-  }
-
-  #masked {
-    mask: url("#maskLayer");
+  img {
+    position: absolute;
+    top: -116px;
+    left: -85px;
+    transform: scale(1.06);
   }
 }
 
