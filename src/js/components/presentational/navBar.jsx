@@ -1,9 +1,11 @@
 import React from "react";
-import "./../../../scss/homeNavBar.scss";
+import "./../../../scss/navBar.scss";
+import Logo from "./../../../assets/logo.svg"; // Asset
 
-const HomeNavBar = props => {
+const NavBar = props => {
   return (
     <nav className="navbar-container">
+      {!props.inHome && <img src={Logo} className="logo" />}
       <p className="navlink" id="work">
         WORK.
       </p>
@@ -14,4 +16,4 @@ const HomeNavBar = props => {
   );
 };
 
-export default HomeNavBar;
+export default NavBar;
