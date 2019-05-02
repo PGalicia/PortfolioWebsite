@@ -6,13 +6,13 @@
   margin: 125px auto;
   margin-bottom: 50px;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: 213px auto 209px;
   grid-gap: 10px;
 
   .project-container {
     position: relative;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     overflow: hidden;
 
@@ -53,7 +53,7 @@
       img {
         width: 132px;
         top: 27px;
-        right: 22px;
+        right: 34px;
       }
     }
 
@@ -63,9 +63,9 @@
       height: 216px;
 
       img {
-        width: 130px;
+        width: 145px;
         top: 34px;
-        right: 12px;
+        right: 20px;
       }
     }
 
@@ -82,8 +82,7 @@
       img {
         width: 116px;
         bottom: -29px;
-        right: 12px;
-        transform: translateX(-50%);
+        right: 48px;
       }
     }
   }
