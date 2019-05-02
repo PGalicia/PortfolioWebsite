@@ -1,7 +1,7 @@
 @import "utils";
 
 .about-container {
-  > *:not(:first-child) {
+  > * {
     width: 85%;
     margin: 0 auto;
     position: relative;
