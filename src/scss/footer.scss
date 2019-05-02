@@ -1,0 +1,26 @@
+@import "utils";
+
+.footer-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 25px;
+  width: 300px;
+  text-align: center;
+
+  .external-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    img {
+      margin: 0 10px;
+    }
+  }
+
+  p {
+    color: $body-accent-color-grey;
+    font-size: 14px;
+  }
+}
