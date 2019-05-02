@@ -2,6 +2,8 @@ import React, { Component } from "react"; // React
 import "./../../../scss/about.scss"; // SCSS
 import NavBar from "./../presentational/navBar.jsx"; // Component
 import ProfileOverview from "./../presentational/profileOverview.jsx"; // Component
+import Experience from "./../presentational/experience.jsx"; // Component
+import { EXPERIENCE } from "./../../constants/experience.js"; // Constants
 
 class About extends Component {
   constructor() {
@@ -16,7 +18,11 @@ class About extends Component {
 
         {/* Profile Overview Component */}
         <ProfileOverview />
-        {/* Navigation Component */}
+
+        {/* Experience Component */}
+        <Experience experiences={EXPERIENCE} />
+
+        {/* Toolbox Component */}
       </section>
     );
   }
