@@ -5,9 +5,11 @@ module.exports = {
   // output: {
   //   publicPath: "/"
   // },
+  entry: "./src/index.js",
   output: {
-    path: path.resolve("dist"),
-    filename: "bundled.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index_bundle.js',
+    publicPath: '/'
   },
   module: {
     rules: [
