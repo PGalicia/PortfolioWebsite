@@ -1,0 +1,62 @@
+@import "utils";
+
+.individual-project-container {
+  > * {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  > h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: $body-accent-color;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    letter-spacing: 3px;
+  }
+
+  > h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $body-accent-color-red;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+  }
+
+  > p {
+    line-height: 1.75;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  > h4 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
+
+  .website-mockup-images-container {
+    > div {
+      position: relative;
+      width: 100%;
+      margin-bottom: 70px;
+
+      img {
+        position: relative;
+        width: 100%;
+        background-color: lightgray;
+        height: 350px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: $body-accent-color-red;
+        margin-top: 20px;
+      }
+    }
+  }
+}
