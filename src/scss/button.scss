@@ -1,0 +1,18 @@
+@import "utils";
+
+.big-button-container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $body-font-color-white;
+  border: none;
+  background-color: $body-accent-color;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  min-height: 123px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  padding: 15px 0;
+}

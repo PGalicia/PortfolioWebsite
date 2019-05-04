@@ -1,5 +1,6 @@
 import React from "react"; // React
 import NavBar from "./navBar.jsx"; // Component
+import Button from "./button.jsx"; // Component
 import "./../../../scss/projectView.scss"; // SCSS
 import { selectProject } from "./../../utils/selectProject.js"; // Utility
 
@@ -12,7 +13,7 @@ const ProjectView = props => {
       <NavBar inHome={false} />
       <h2>{name}.</h2>
       <h3>Description</h3>
-      <p>{description}</p>
+      <p className="project-description">{description}</p>
       <h3>Stack</h3>
       <h4>{stack.join(", ")}</h4>
       <div className="website-mockup-images-container">
@@ -26,9 +27,13 @@ const ProjectView = props => {
         })}
       </div>
       <div className="project-button-container">
-        <button>View Demo</button>
-        <button>Check Github Repo</button>
+        <Button text="View Demo" />
+        <Button text="Check Github Repo" />
       </div>
+      <p className="project-footer-text">
+        If you would like to know more about the project, please do not hesitate
+        to contact me at <span>galicia.patrick@gmail.com</span>
+      </p>
     </section>
   );
 };

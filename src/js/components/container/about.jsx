@@ -4,6 +4,7 @@ import NavBar from "./../presentational/navBar.jsx"; // Component
 import ProfileOverview from "./../presentational/profileOverview.jsx"; // Component
 import Experience from "./../presentational/experience.jsx"; // Component
 import Skill from "./../presentational/skill.jsx"; // Component
+import Button from "./../presentational/button.jsx"; // Component
 import { EXPERIENCE } from "./../../constants/experience.js"; // Constants
 import { SKILLS } from "./../../constants/skills.js"; // Constants
 
@@ -33,7 +34,8 @@ class About extends Component {
           here you go...
         </p>
 
-        <button>VIEW MY RESUME</button>
+        {/* <button>VIEW MY RESUME</button> */}
+        <Button text="VIEW MY RESUME" />
       </section>
     );
   }
