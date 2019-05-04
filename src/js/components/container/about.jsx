@@ -35,7 +35,7 @@ class About extends Component {
         </p>
 
         {/* <button>VIEW MY RESUME</button> */}
-        <Button text="VIEW MY RESUME" />
+        <Button text="VIEW MY RESUME" isDemoAvailable={null} />
       </section>
     );
   }

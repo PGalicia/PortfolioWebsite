@@ -6,7 +6,7 @@ import { selectProject } from "./../../utils/selectProject.js"; // Utility
 
 const ProjectView = props => {
   const project = selectProject(props.match.params.id);
-  const { name, description, stack, images } = project;
+  const { name, description, stack, images, isDemoAvailable } = project;
   return (
     <section className="individual-project-container">
       {/* Home Navigation Bar */}
@@ -27,8 +27,8 @@ const ProjectView = props => {
         })}
       </div>
       <div className="project-button-container">
-        <Button text="View Demo" />
-        <Button text="Check Github Repo" />
+        <Button text="View Demo" isDemoAvailable={isDemoAvailable} />
+        <Button text="Check Github Repo" isDemoAvailable={null} />
       </div>
       <p className="project-footer-text">
         If you would like to know more about the project, please do not hesitate

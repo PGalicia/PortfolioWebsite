@@ -10,7 +10,8 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: false
     },
     {
         id: 1,
@@ -23,7 +24,8 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: true
     },
     {
         id: 2,
@@ -36,7 +38,8 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: false
     },
     {
         id: 3,
@@ -49,7 +52,8 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: true
     },
     {
         id: 4,
@@ -62,7 +66,8 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: false
     },
     {
         id: 5,
@@ -75,6 +80,7 @@ export const PROJECTS = [
             massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed enim ut sem viverra
              aliquet eget. Orci a scelerisque purus semper eget.`,
         stack: ["Javascript", "ReactJs", "Redux", "HTML5", "SASS", "NodeJs", "ExpressJs", "SQLite", "Sequelize"],
-        images: ["image1", "image2", "image3"]
+        images: ["image1", "image2", "image3"],
+        isDemoAvailable: true
     },
 ]
