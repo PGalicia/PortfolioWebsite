@@ -8,6 +8,10 @@
   width: 90%;
   margin: 0 auto;
 
+  > * {
+    cursor: pointer;
+  }
+
   .navlink {
     position: absolute;
     font-weight: 700;
@@ -16,12 +20,15 @@
     transform: translateY(-50%);
 
     &#about {
-      // right: 50px;
       right: 0;
     }
 
     &#work {
       right: 150px;
+    }
+
+    a:hover {
+      color: $body-accent-color-red;
     }
   }
 
