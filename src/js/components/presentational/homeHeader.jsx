@@ -18,7 +18,7 @@ const HomeHeader = props => {
             className="typewriter"
             strings={TYPEWRITER_TEXT}
             typeSpeed={40}
-            backSpeed={50}
+            backSpeed={25}
             backDelay={1000}
             cursorChar="_"
             loop

@@ -9,10 +9,18 @@ const Footer = props => {
   return (
     <footer className="footer-container">
       <div className="external-links">
-        <img className="icon" id="github" src={Github} />
-        <img className="icon" id="linkedin" src={Instagram} />
-        <img className="icon" id="instagram" src={LinkedIn} />
-        <img className="icon" id="email" src={Telegram} />
+        <a href="https://github.com/PGalicia" target="_blank">
+          <img className="icon" id="github" src={Github} />
+        </a>
+        <a href="https://www.linkedin.com/in/patrick-galicia/" target="_blank">
+          <img className="icon" id="instagram" src={LinkedIn} />
+        </a>
+        <a href="mailto:galicia.patrick@gmail.com">
+          <img className="icon" id="email" src={Telegram} />
+        </a>
+        <a href="https://www.instagram.com/_patrickortreat/" target="_blank">
+          <img className="icon" id="linkedin" src={Instagram} />
+        </a>
       </div>
       <p>&copy; 2019 Patrick Galicia &bull; Please Hire Me</p>
       <p>Website Stack: HTML5, SCSS, ReactJs, Redux</p>

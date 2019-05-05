@@ -20,7 +20,6 @@ class Home extends Component {
   }
 
   handleButtonPress(e, id) {
-    // console.log("button pressed", id);
     this.setState({ toProjectPage: true, projectId: id });
   }
 
