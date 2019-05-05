@@ -9,7 +9,13 @@ const Button = props => {
       </button>
     );
   }
-  return <button className="big-button-container">{props.text}</button>;
+  return (
+    <button className="big-button-container">
+      <a href={props.link} target="_blank">
+        {props.text}
+      </a>
+    </button>
+  );
 };
 
 export default Button;

@@ -7,6 +7,7 @@ import Skill from "./../presentational/skill.jsx"; // Component
 import Button from "./../presentational/button.jsx"; // Component
 import { EXPERIENCE } from "./../../constants/experience.js"; // Constants
 import { SKILLS } from "./../../constants/skills.js"; // Constants
+import resume from "./../../../assets/resume.pdf";
 
 class About extends Component {
   constructor() {
@@ -34,8 +35,8 @@ class About extends Component {
           here you go...
         </p>
 
-        {/* <button>VIEW MY RESUME</button> */}
-        <Button text="VIEW MY RESUME" isDemoAvailable={null} />
+        {/* To my Resume Button */}
+        <Button text="VIEW MY RESUME" isDemoAvailable={null} link={resume} />
       </section>
     );
   }

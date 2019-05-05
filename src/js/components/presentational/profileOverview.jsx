@@ -26,10 +26,21 @@ const ProfileOverview = props => {
         </p>
 
         <div className="external-link-about">
-          <img className="icon" id="github" src={Github} />
-          <img className="icon" id="linkedin" src={Instagram} />
-          <img className="icon" id="instagram" src={LinkedIn} />
-          <img className="icon" id="email" src={Telegram} />
+          <a href="https://github.com/PGalicia" target="_blank">
+            <img className="icon" id="github" src={Github} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/patrick-galicia/"
+            target="_blank"
+          >
+            <img className="icon" id="instagram" src={LinkedIn} />
+          </a>
+          <a href="mailto:galicia.patrick@gmail.com">
+            <img className="icon" id="email" src={Telegram} />
+          </a>
+          <a href="https://www.instagram.com/_patrickortreat/" target="_blank">
+            <img className="icon" id="linkedin" src={Instagram} />
+          </a>
         </div>
       </div>
     </section>
