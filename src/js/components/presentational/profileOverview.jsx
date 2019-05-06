@@ -16,13 +16,14 @@ const ProfileOverview = props => {
         <h2>Say hi.</h2>
         <h3>galicia.patrick@gmail.com</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. In dictum
-          non consectetur a erat nam at. A diam sollicitudin tempor id eu nisl
-          nunc. In dictum non consectetur a. Tincidunt augue interdum velit
-          euismod in pellentesque. Pretium lectus quam id leo in vitae turpis
-          massa sed. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed
-          enim ut sem viverra aliquet eget. Orci a scelerisque purus semper eget
+          Hi, I’m <span>Patrick Galicia</span>, an{" "}
+          <span>aspiring full stack developer</span> based in Los Angeles,
+          California, currently building the web application for a men rental
+          apparel startup,
+          <span> APRL</span>. The foundation of my career was shaped with a
+          bachelors in software engineering and still continuously learning all
+          of its nuances, be it the best practices or wherever my curiosity
+          drives me.
         </p>
 
         <div className="external-link-about">

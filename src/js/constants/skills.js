@@ -29,10 +29,12 @@ export const SKILLS = [
     {
         title: "Others",
         list: [
-            "Git/Github", 
+            "Git/Github/Gitlab", 
             "MySQL", 
             "MongoDB", 
-            "SQLite", 
+            "SQLite",
+            "Sequelize",
+            "Webpack",
             "Wordpress", 
             "Love2D"
         ]

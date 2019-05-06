@@ -1,5 +1,15 @@
 export const EXPERIENCE = [
     {
+        position: "Front End Developer Intern",
+        company: "APRL",
+        location: "Los Angeles, CA",
+        date: "April 2019 - Present",
+        contributions: [
+            "Translated design team’s mockups into responsive, interactive features, using ReactJs.",
+            "Maintained brand standards under company guidelines."
+        ]
+    },
+    {
         position: "Web Intern",
         company: "The Fox Magazine",
         location: "Remotely",

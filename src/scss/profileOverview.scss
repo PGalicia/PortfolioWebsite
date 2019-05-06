@@ -85,6 +85,14 @@
       font-size: 18px;
       line-height: 2.25;
       margin-bottom: 50px;
+
+      span {
+        color: $body-accent-color;
+
+        &:first-child {
+          font-weight: 700;
+        }
+      }
     }
 
     .external-link-about {
