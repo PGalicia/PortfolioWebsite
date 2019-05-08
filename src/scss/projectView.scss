@@ -26,9 +26,18 @@
   }
 
   .project-description {
-    line-height: 1.75;
     font-size: 18px;
     margin-bottom: 50px;
+
+    > p {
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .note {
+      color: $body-accent-color-grey;
+      font-style: italic;
+    }
   }
 
   > h4 {

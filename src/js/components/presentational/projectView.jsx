@@ -3,6 +3,7 @@ import NavBar from "./navBar.jsx"; // Component
 import Button from "./button.jsx"; // Component
 import "./../../../scss/projectView.scss"; // SCSS
 import { selectProject } from "./../../utils/selectProject.js"; // Utility
+import parse from "html-react-parser"; // Parser
 
 class ProjectView extends Component {
   constructor() {
@@ -22,7 +23,7 @@ class ProjectView extends Component {
         <NavBar inHome={false} />
         <h2>{name}.</h2>
         <h3>Description</h3>
-        <p className="project-description">{description}</p>
+        <div className="project-description">{parse(description)}</div>
         <h3>Stack</h3>
         <h4>{stack.join(", ")}</h4>
         <div className="website-mockup-images-container">
