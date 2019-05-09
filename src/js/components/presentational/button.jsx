@@ -4,17 +4,18 @@ import "./../../../scss/button.scss"; // SCSS
 const Button = props => {
   if (props.isDemoAvailable == false) {
     return (
-      <button className="big-button-container unavailable">
-        Demo Unavailable
-      </button>
+      // <button className="big-button-container unavailable">
+      //   Demo Unavailable
+      // </button>
+      <a className="big-button-container unavailable">
+        <span>Demo Unavailable</span>
+      </a>
     );
   }
   return (
-    <button className="big-button-container">
-      <a href={props.link} target="_blank">
-        {props.text}
-      </a>
-    </button>
+    <a className="big-button-container" href={props.link} target="_blank">
+      <span>{props.text}</span>
+    </a>
   );
 };
 
