@@ -9,7 +9,8 @@ export const PROJECTS = [
         `,
         stack: ["ReactJs", "Redux", "NodeJs", "ExpressJs", "HTML5", "CSS/SASS", "SQLite", "Sequelize", "Jest", "Webpack"],
         images: ["image1", "image2", "image3"],
-        isDemoAvailable: false
+        githubRepoLink: "",
+        demoLink: ""
     },
     {
         id: 1,
@@ -20,7 +21,8 @@ export const PROJECTS = [
         `,
         stack: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "JQuery", "PySQL", "MySQL"],
         images: ["image1", "image2", "image3"],
-        isDemoAvailable: true
+        githubRepoLink: "",
+        demoLink: ""
     },
     {
         id: 2,
@@ -32,7 +34,8 @@ export const PROJECTS = [
         `,
         stack: ["ReactJs", "Redux", "HTML5", "CSS/SASS", "Webpack"],
         images: ["image1", "image2", "image3"],
-        isDemoAvailable: false
+        githubRepoLink: "",
+        demoLink: ""
     },
     {
         id: 3,
@@ -52,16 +55,19 @@ export const PROJECTS = [
         `,
         stack: ["HTML5", "CSS3", "JavaScript", "PHP", "JQuery"],
         images: ["image1", "image2", "image3"],
-        isDemoAvailable: true
+        githubRepoLink: "",
+        demoLink: ""
     },
     {
         id: 4,
         name: "Scrapyard",
         description: `<p>An pseudo-e-commerce website that allows users to “buy” mechanical keyboards.</p>
-        <p><strong>How It Works</strong>: Similar to other e-commerce websites, the website displays our product and allow users to buy them by specifying which product they want to buy and after they input their personal information (ie billing and shipping address). Users will then be presented a receipt, signifying that they have bought the product.</p>`,
+        <p><strong>How It Works</strong>: Similar to other e-commerce websites, the website displays our product and allow users to buy them by specifying which product they want to buy and after they input their personal information <i>(i.e. billing and shipping address)</i>. Users will then be presented a receipt, signifying that they have bought the product.</p>`,
         stack: ["HTML5", "CSS3", "JavaScript", "Java", "JDBC",  "MySQL", "Apache Tomcat"],
-        images: ["image1", "image2", "image3"],
-        isDemoAvailable: false
+        images: ["home.jpg"],
+        isDemoAvailable: false,
+        githubRepoLink: "https://github.com/PGalicia/ScrapYard",
+        demoLink: ""
     },
     {
         id: 5,
@@ -73,6 +79,7 @@ export const PROJECTS = [
         `,
         stack: ["Lua", "Love2D", "Tiled", "Aseprite"],
         images: ["image1", "image2", "image3"],
-        isDemoAvailable: true
+        githubRepoLink: "",
+        demoLink: ""
     },
 ]

@@ -1,8 +1,8 @@
 import React from "react"; // React
 import "./../../../scss/projectList.scss"; // SCSS
-import LookOutMan from "./../../../assets/projectImg/lookOutMan.png";
-import Candle from "./../../../assets/projectImg/candle.png";
-import UCI from "./../../../assets/projectImg/uci.png";
+import LookOutMan from "./../../../assets/projectLogo/lookOutMan.png";
+import Candle from "./../../../assets/projectLogo/candle.png";
+import UCI from "./../../../assets/projectLogo/uci.png";
 
 const ProjectList = props => {
   return (

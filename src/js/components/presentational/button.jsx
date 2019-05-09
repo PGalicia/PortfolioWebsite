@@ -2,11 +2,8 @@ import React from "react"; // React
 import "./../../../scss/button.scss"; // SCSS
 
 const Button = props => {
-  if (props.isDemoAvailable == false) {
+  if (props.link == "") {
     return (
-      // <button className="big-button-container unavailable">
-      //   Demo Unavailable
-      // </button>
       <a className="big-button-container unavailable">
         <span>Demo Unavailable</span>
       </a>

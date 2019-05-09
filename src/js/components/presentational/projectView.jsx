@@ -16,7 +16,14 @@ class ProjectView extends Component {
 
   render() {
     const project = selectProject(this.props.match.params.id);
-    const { name, description, stack, images, isDemoAvailable } = project;
+    const {
+      name,
+      description,
+      stack,
+      images,
+      demoLink,
+      githubRepoLink
+    } = project;
     return (
       <section className="individual-project-container">
         {/* Home Navigation Bar */}
@@ -28,17 +35,27 @@ class ProjectView extends Component {
         <h4>{stack.join(", ")}</h4>
         <div className="website-mockup-images-container">
           {images.map(image => {
+            let folderName = name.replace(/ /g, "-").toLowerCase();
+            let imageName = image.split(".")[0].split("-");
+            for (let i = 0; i < imageName.length; i++) {
+              imageName[i] =
+                imageName[i][0].toUpperCase() + imageName[i].substring(1);
+            }
+
             return (
               <div key={image}>
-                <img key={image} />
-                <p>{image.replace("-", " ")}</p>
+                <img
+                  key={image}
+                  src={require(`./../../../assets/projectImages/${folderName}/${image}`)}
+                />
+                <p>{imageName}</p>
               </div>
             );
           })}
         </div>
         <div className="project-button-container">
-          <Button text="View Demo" isDemoAvailable={isDemoAvailable} />
-          <Button text="Check Github Repo" isDemoAvailable={null} />
+          <Button text="View Demo" link={demoLink} />
+          <Button text="Check Github Repo" link={githubRepoLink} />
         </div>
         <p className="project-footer-text">
           If you would like to know more about the project, please do not
