@@ -72,14 +72,14 @@ export const PROJECTS = [
     {
         id: 5,
         name: "Seance",
-        description: `<p>A roguelike game lets you play as a bellhop in a haunted house.</p>
-        <p><strong>How It Works</strong>: The player can control the bellhop which has one main ability, to throw food at food at the hotel’s guests. His guests comprise of monsters: Frankenstein, Witch, Ghost. Each one having a different walking speed and hunger, which are listed below.</p>
-        <p>The bellhop must throw food to each of the guests to lower their hunger because if not they will become enraged. They will then emit an aura around them, draining the player’s sanity when they are around them. The game ends when the player’s sanity reaches zero.</p>
-        <p>Another mechanic to the game is that on certain cycles, light would become an issue to the players, restricting what they can see. This makes it difficult for the players to find their guests, and maneuver through the hotel especially when the guests are in their “enraged” state. Players, however, have a light source which increases the player’s field of vision for a limited time, allowing players to better see their surrounding.</p>
+        description: `<p>A roguelike game let's you control of a bellhop, Esteban, as you keep your terrifying guest happy ... or else.</p>
+        <p><strong>How It Works</strong>: The player can control the bellhop which has one main ability, to throw food at their guests. His guests comprise of monsters: Frankenstein, Witch, and Ghost.</p>
+        <p>The bellhop must throw food to each of the guests to lower their hunger because if not they will become enraged. This will emit an aura around each enraged monster, draining the player’s sanity when they are around them. The game ends when the player’s sanity reaches zero.</p>
+        <p className="note">Note: More details about each character and mechanic of the game can be found @ <a href="https://github.com/PGalicia/Seance" target="_blank">https://github.com/PGalicia/Seance</a></p>
         `,
         stack: ["Lua", "Love2D", "Tiled", "Aseprite"],
-        images: ["image1", "image2", "image3"],
-        githubRepoLink: "",
+        images: ["game-photo.png", "character-models.gif"],
+        githubRepoLink: "https://github.com/PGalicia/Seance",
         demoLink: ""
     },
 ]

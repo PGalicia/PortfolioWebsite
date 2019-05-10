@@ -32,6 +32,14 @@
     > p {
       line-height: 1.5;
       margin-bottom: 15px;
+
+      > a {
+        color: $body-accent-color-grey;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
 
     .note {
@@ -55,7 +63,6 @@
       img {
         position: relative;
         width: 100%;
-        background-color: lightgray;
       }
 
       p {

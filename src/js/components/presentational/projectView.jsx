@@ -41,7 +41,7 @@ class ProjectView extends Component {
               imageName[i] =
                 imageName[i][0].toUpperCase() + imageName[i].substring(1);
             }
-
+            imageName = imageName.join(" ");
             return (
               <div key={image}>
                 <img
