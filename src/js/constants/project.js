@@ -40,10 +40,10 @@ export const PROJECTS = [
     {
         id: 3,
         name: "Healthy Campus Initiative",
-        description: `<p>A website created for University of California, Irvine that serves as hub for all the resources available for both faculty and staff.</p>
-        <p><strong>How It Works</strong>: For the homepage, users can see the navigation buttons which consists of the home button and various working group page (which I will talk about later on). The main feature of this page is the dropdown search, which list a couple of popular topic (according to our group’s research) about health related topics on campus. Once the user chooses his/her desired topic, it will then lead him/her to a page that best suit their needs. For example, if a user choose a topic about Sexual Assault, the website will redirect the user to UCI’s Campus Assault Resources and Education homepage.</p>
+        description: `<p>A front-end prototype created for University of California, Irvine that serves as hub for all the resources available for both students and staff.</p>
+        <p><strong>How It Works</strong>: For the homepage, users can see the navigation buttons which consists of the home button and various working group page. The main feature of this page is the dropdown search <i>(as shown below)</i>, which list a couple of popular topics, determined by our group's reasearch, about health related topics on campus. Once the user chooses his/her desired topic, it will then lead him/her to a page that best suit their needs. For example, if a user chooses a topic about Sexual Assault, the website will redirect the user to UCI’s Campus Assault Resources and Education homepage.</p>
         <p>In addition, when scrolled down, users will see the About page which shows the website’s purpose and our supervisor’s contact information.</p>
-        <p>For the working group page, All health related campus resources are categorized into five working groups: Physical Activity, Alcohol and Drugs, Mental Health, Sexual Health, Nutrition.</p>
+        <p>For the working group page, All health related campus resources are categorized into five working groups: Physical Activity, Alcohol and Drugs, Mental Health, Sexual Health, and Nutrition.</p>
         <p>Each page is consist of the following:</p>
         <ul>
         <li>Description: Gives the overview of the page</li>
@@ -51,11 +51,11 @@ export const PROJECTS = [
         <li>Student Resource Links: Links that are useful for students</li>
         <li>Faculty Resource Links: Links that are useful for faculty</li>
         </ul>
-        <p>In addition, when users press a link, a modal will pop, like the one below, that display relevant information such as contact information and location, of the resource.</p>
+        <p>In addition, when users press a link, a modal will pop <i>(as shown below)</i> that displays relevant information such as contact information and location of the resource.</p>
         `,
         stack: ["HTML5", "CSS3", "JavaScript", "PHP", "JQuery"],
-        images: ["image1", "image2", "image3"],
-        githubRepoLink: "",
+        images: ["home-page.png", "category-page.png", "modal.png"],
+        githubRepoLink: "https://github.com/PGalicia/HealthyCampusWebsite",
         demoLink: ""
     },
     {
