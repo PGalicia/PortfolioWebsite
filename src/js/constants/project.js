@@ -15,13 +15,14 @@ export const PROJECTS = [
     {
         id: 1,
         name: "Wisely",
-        description: `<p>A program that takes a percentage amount of your total money as your “spending money” and allocate it to the items you want to use the money on.</p>
-        <p>How it works: The program allows its users to input the items that they want to save us for. The program allows it users to list items that they want to save up for. The program takes in the users’ total money (ie the total money you have in your bank account), which then takes a percentage of it as your spending money. As the default, 30% of your total would be used but this can changed based on your preference.</p>
-        <p>The program allows it users to list items that they want to save up for. The program takes in the users’ total money (ie the total money you have in your bank account), which then takes a percentage of it as your spending money. As the default, 30% of your total would be used but this can changed based on your preference.</p>
+        description: `<p>A web application that takes a percentage amount of your total money as your “spending money” and allocate it to the items you want to use the money on.</p>
+        <p><strong>How It Works</strong>: The web app allows its users to input the items that they want to save up for and the users’ total money <i>(ie the total money you have in your bank account)</i>. A percentage is then taken out of the inputted "total money" and set it as your spending money. As the default, 30% of your total would be used but this can be changed based on your preference.</p>
+        <p>The spending money is then allocated to the items the users listed, prioritizing items with higher priority. For example, consider you have a spending money of $100 and three items with their corresponding cost: Item A($50), Item B($75), Item C($30). Item A will then be set to have priority 1, which is the highest priority, and this makes the other two items have a default priority of 2. 
+        The spending money will then prioritize allocating to Item A and once its complete it will then allocate the rest of the money to the next priority item, in this case, Item B and Item C. Since the last two items, have the same priority, the remaining spending money will then be split between the two.</p>
         `,
         stack: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "JQuery", "PySQL", "MySQL"],
-        images: ["image1", "image2", "image3"],
-        githubRepoLink: "",
+        images: ["home-page.png", "edit-money-modal.png", "edit-item-name-modal.png"],
+        githubRepoLink: "https://github.com/PGalicia/BudgetPlanner",
         demoLink: ""
     },
     {

@@ -62,7 +62,9 @@
 
       img {
         position: relative;
-        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 100%;
       }
 
       p {
