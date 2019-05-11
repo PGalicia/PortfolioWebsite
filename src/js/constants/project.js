@@ -28,15 +28,16 @@ export const PROJECTS = [
     {
         id: 2,
         name: "Cocktail Finder",
-        description: `<p>A web application that allows users to make a cocktail based on which liquors and ingredients they have. This side project is an introduction to a bigger project that a friend and I designed in college, which we can discuss more about in person.</p>
-        <p><strong>How It Works</strong>: On the main page, users can see all the available cocktails. Each cocktails card will present the name and a small description. When the user click the cocktail it will show more information about the selected cocktail, such as ingredients (refer to something image below).</p>
-        <p>The main feature of the the web app by pressing the [something] button. This will show the users the available liquor and ingredients we have. Once they chose which ingredients they have, and press [something], it will present them the exact cocktail they can make, if available, and other cocktails they can *almost* make.</p>
-        <p className="note">Note: This project is currently still in its development stage. Please check the roadmap at Trello: link to version 1.0</p>
+        description: `<p>A web application that allows users to make a cocktail based on which alcohols and ingredients they currently have. This side project is an introduction to a bigger project that a friend and I designed in college, which we can discuss more about in person.</p>
+        <p><strong>How It Works</strong>: To the right of the home page, users can see all the available cocktails with each cocktail card presenting its ingredients. While the left side showcases the filtering feature. This feature allows users to choose which alcohol and/or ingredients they have and it will present
+        them the result page <i>(as shown below)</i>. The result page contains two category: "You can make", and "You can almost make". As the name suggests, "You can make" category will display the cocktail(s) that exactly match the chosen alcohol/ingredients and "You can almost make" will display
+        cocktail(s) that the user can <i>ALMOST</i> make.</p>
+        <p className="note">Note: This project is currently still in its development stage. Please check the roadmap @ <a href="https://trello.com/b/t9h5tvjr/cocktail-finder-development-roadmap" target="_blank">Trello</a></p>
         `,
         stack: ["ReactJs", "Redux", "HTML5", "CSS/SASS", "Webpack"],
-        images: ["image1", "image2", "image3"],
-        githubRepoLink: "",
-        demoLink: ""
+        images: ["home-page.png", "filtered-result-page.png"],
+        githubRepoLink: "https://github.com/PGalicia/CocktailFinder",
+        demoLink: "https://pgalicia.github.io/CocktailFinder/"
     },
     {
         id: 3,
@@ -76,7 +77,7 @@ export const PROJECTS = [
         description: `<p>A roguelike game let's you control of a bellhop, Esteban, as you keep your terrifying guest happy ... or else.</p>
         <p><strong>How It Works</strong>: The player can control the bellhop which has one main ability, to throw food at their guests. His guests comprise of monsters: Frankenstein, Witch, and Ghost.</p>
         <p>The bellhop must throw food to each of the guests to lower their hunger because if not they will become enraged. This will emit an aura around each enraged monster, draining the player’s sanity when they are around them. The game ends when the player’s sanity reaches zero.</p>
-        <p className="note">Note: More details about each character and mechanic of the game can be found @ <a href="https://github.com/PGalicia/Seance" target="_blank">https://github.com/PGalicia/Seance</a></p>
+        <p className="note">Note: More details about each character and mechanic of the game can be found @ <a href="https://github.com/PGalicia/Seance" target="_blank">Github Repo</a></p>
         `,
         stack: ["Lua", "Love2D", "Tiled", "Aseprite"],
         images: ["game-photo.png", "character-models.gif"],
