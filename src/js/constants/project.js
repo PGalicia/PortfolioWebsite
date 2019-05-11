@@ -2,15 +2,16 @@ export const PROJECTS = [
     {
         id: 0,
         name: "Event Planner",
-        description: `<p>A web application that lets users create and manage events, including the attendees, and items needed for the events. This side project was made to help organize events made in my friend group.</p>
-        <p><strong>How It Works</strong>: For the homepage, the web app displays a “create an event” button and all the events the user has created. The top will always showcase the latest upcoming event <i>(if available)</i>, the middle section will always showcase the possible future events, and the last section would showcase the past events. In each event card, users can see the following information: event name, datetime, location, edit button, delete button, and “See more” button.</p>
-        <p>If the user pressed “See more”, they will not only see the core information about the event <i>(as mentioned above)</i> but also additional information, such as the attendees and the needed items for the event. For the items section, each item is color coded and each item’s color corresponds to the color attached with each attendee, displaying which users are responsible for what items. In addition, users can reassign item responsibility by pressing the “Reassign Items” located at the bottom of the event page.</p>
-        <p className="note">Note: This project is currently still in its development stage.</p>
+        description: `<p>A web application that lets users create and manage events, including the attendees, and items needed for the events. This side project was made to help organize events in my friend group.</p>
+        <p><strong>How It Works</strong>: For the homepage, the web app displays a “create an event” button and all the events the user has created. The top event section will always showcase the latest upcoming event <i>(if available)</i>, the middle section will always showcase the possible future events, and the last section would showcase the past events. In each event card, users can see the following information: event name, datetime, location, edit button, delete button, and “See more” button.</p>
+        <p>If the user pressed “See more”, they will not only see the core information about the event <i>(as mentioned above)</i> but also additional information, such as the attendees and the needed items for the event <i>(as shown below)</i>. For the items section, each item is color coded and each item’s color(s) corresponds to the color associated with each attendee, displaying which users are responsible for what items. In addition, users can reassign item responsibility by pressing the “Reassign Items” located at the bottom of the event page.</p>
+        <p className="note">Note: This project is currently still in its development stage. Please check the roadmap @ <a href="https://trello.com/b/B8TSHhhH/event-planner-development-roadmap" target="_blank">Trello</a>. In addition, the project is currently using my custom REST API. Information about the 
+        API can be found at this <a href="https://github.com/PGalicia/ProjectNamorServer" target="_blank">Github Repo</a>.</p>
         `,
         stack: ["ReactJs", "Redux", "NodeJs", "ExpressJs", "HTML5", "CSS/SASS", "SQLite", "Sequelize", "Jest", "Webpack"],
-        images: ["image1", "image2", "image3"],
-        githubRepoLink: "",
-        demoLink: ""
+        images: ["home-page.png", "view-event-page.png", "edit-event-page.png", "reassign-item-page.png", "create-event-page.png"],
+        githubRepoLink: "https://github.com/PGalicia/ProjectNamorClient",
+        demoLink: "https://pgalicia.github.io/ProjectNamorClient/"
     },
     {
         id: 1,
