@@ -23,7 +23,7 @@ export const PROJECTS = [
         cost: Item A($50), Item B($75), Item C($30). Item A will then be set to have priority 1, which is the highest priority, and this makes the other two items have a default priority of 2. 
         The spending money will then prioritize allocating to Item A and once its complete it will then allocate the rest of the money to the next priority item, in this case, Item B and Item C. Since the 
         last two items, have the same priority, the remaining spending money will then be split between the two.</p>
-        <p className="note">Note: I am currently working on a version 2 that design of this web app, which you can see <a href="https://drive.google.com/open?id=1BQDNJLEtZZiBB2hCC3bDnlWoYTrFS94E">here</a>. 
+        <p className="note">Note: I am currently working on a version 2 that design of this web app, which you can see <a href="https://drive.google.com/open?id=1BQDNJLEtZZiBB2hCC3bDnlWoYTrFS94E" target="_blank">here</a>. 
         I am planning to redo the project from the ground up, utilizing the React framework</p>
         `,
         stack: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "JQuery", "PySQL", "MySQL"],
