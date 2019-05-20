@@ -10,8 +10,8 @@ export const PROJECTS = [
         `,
         stack: ["ReactJs", "Redux", "NodeJs", "ExpressJs", "HTML5", "CSS/SASS", "SQLite", "Sequelize", "Jest", "Webpack"],
         images: ["home-page.png", "view-event-page.png", "edit-event-page.png", "reassign-item-page.png", "create-event-page.png"],
-        githubRepoLink: "https://github.com/PGalicia/ProjectNamorClient",
-        demoLink: "https://pgalicia.github.io/ProjectNamorClient/"
+        githubRepoLink: "https://github.com/PGalicia/EventPlanner",
+        demoLink: "https://eventplanner-ccb48.firebaseapp.com/"
     },
     {
         id: 1,
@@ -28,7 +28,7 @@ export const PROJECTS = [
         `,
         stack: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "JQuery", "PySQL", "MySQL"],
         images: ["home-page.png", "edit-money-modal.png", "edit-item-name-modal.png"],
-        githubRepoLink: "https://github.com/PGalicia/BudgetPlanner",
+        githubRepoLink: "https://github.com/PGalicia/Wisely",
         demoLink: ""
     },
     {
