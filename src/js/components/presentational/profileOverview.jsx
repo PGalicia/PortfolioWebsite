@@ -39,7 +39,7 @@ const ProfileOverview = props => {
           <a href="mailto:galicia.patrick@gmail.com">
             <img className="icon" id="email" src={Telegram} />
           </a>
-          <a href="https://www.instagram.com/_patrickortreat/" target="_blank">
+          <a href="https://www.instagram.com/pat.on.theback/" target="_blank">
             <img className="icon" id="linkedin" src={Instagram} />
           </a>
         </div>
