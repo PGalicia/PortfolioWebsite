@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  max-width: $max-body-width;
+  min-width: $min-body-width;
+  background-color: $background-color;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: $font-karla;
+  color: $body-font-color;
+}
+
+a {
+  text-decoration: none;
+  color: $body-font-color;
+}

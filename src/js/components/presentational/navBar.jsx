@@ -1,20 +1,19 @@
-import React from "react"; // Reaact
-import "./../../../scss/navBar.scss"; // SCSS
+import React from "react"; // React
 import Logo from "./../../../assets/logo.svg"; // Asset
 import { Link } from "react-router-dom"; // React-Router
 
 const NavBar = props => {
   return (
-    <nav className="navbar-container">
+    <nav className="navbar" id="navbar">
       {!props.inHome && (
         <Link to="/">
-          <img src={Logo} className="logo" />
+          <img src={Logo} className="navbar__logo" />
         </Link>
       )}
-      <p className="navlink" id="work">
+      <p className="navbar__link" id="work">
         <Link to="/">WORK.</Link>
       </p>
-      <p className="navlink" id="about">
+      <p className="navbar__link" id="about">
         <Link to="/about">ABOUT.</Link>
       </p>
     </nav>

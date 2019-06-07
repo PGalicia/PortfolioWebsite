@@ -6,7 +6,7 @@ import ProjectView from "./../presentational/projectView.jsx"; // Component
 
 const Main = props => {
   return (
-    <main>
+    <main id="main">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

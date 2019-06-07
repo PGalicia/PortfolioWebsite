@@ -1,0 +1,69 @@
+.profile {
+  margin: 75px auto;
+  @include initialize-grid(25px);
+
+  &__image {
+    position: relative;
+    grid-row: 1;
+    width: 100%;
+    height: 500px;
+
+    @include desktop-large {
+      grid-row: 1 / span 4;
+      width: 401px;
+      height: 100%;
+    }
+
+    img {
+      @extend %center-content;
+      bottom: 0;
+      width: 100%;
+
+      @include desktop-large {
+        top: -82px;
+        left: 0;
+        width: 517px;
+        transform: scale(1.15);
+      }
+    }
+  }
+
+  &__header {
+    font-weight: $font-weight-black;
+    color: $body-accent-color;
+    font-size: $font-size-header;
+    @extend %font-montserrat-style;
+    margin: 10px 0;
+    margin-bottom: 15px;
+  }
+
+  &__texts {
+    box-sizing: border-box;
+    padding: 10px;
+
+    grid-row: 2;
+
+    @include desktop-large {
+      grid-column: 2;
+    }
+  }
+
+  &__statement {
+    font-size: $font-size-body;
+    line-height: $line-height-big-gap;
+    margin-bottom: 50px;
+  }
+
+  &__span {
+    color: $body-accent-color;
+  }
+
+  &__email {
+    margin: 10px 0;
+    margin-bottom: 35px;
+  }
+
+  &__icon {
+    margin-right: 15px;
+  }
+}

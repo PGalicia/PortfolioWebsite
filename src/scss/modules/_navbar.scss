@@ -1,0 +1,25 @@
+.navbar {
+  &__link {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-body;
+    @extend %centerY-content;
+
+    &#about {
+      right: 0;
+    }
+
+    &#work {
+      right: 150px;
+    }
+
+    a:hover {
+      color: $body-accent-color-red;
+    }
+  }
+
+  &__logo {
+    height: 131%;
+    left: -13px;
+    @extend %centerY-content;
+  }
+}

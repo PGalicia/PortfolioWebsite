@@ -1,0 +1,18 @@
+.footer {
+  &__links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  &__icon {
+    margin: 0 10px;
+  }
+
+  &__text,
+  &__stack {
+    color: $body-accent-color-grey;
+    font-size: $font-size-small;
+  }
+}
