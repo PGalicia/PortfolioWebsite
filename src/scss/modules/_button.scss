@@ -4,11 +4,18 @@
   font-family: $font-montserrat;
   font-weight: $font-weight-black;
   font-size: $font-size-header-1;
+  border: 5px solid $body-accent-color;
   display: block;
   padding: 25px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 100px;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    color: $body-accent-color;
+    background-color: $body-font-color-white;
+  }
 
   > span {
     word-wrap: break-word;
