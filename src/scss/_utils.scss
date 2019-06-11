@@ -1,26 +1,3 @@
-$max-body-width: 1152px;
-$min-body-width: 700px;
-$background-color: #f8f8fa;
-$body-font-color-white: #f8f8fa;
-$body-font-color: #333333;
-$body-accent-color: #fd8a5b;
-$body-accent-color-red: #fd615b;
-$body-accent-color-grey: #bdbdbd;
-
-$breakpoint-desktop: 1070px;
-
-@mixin desktop-medium {
-  @media only screen and (max-width: $breakpoint-desktop) {
-    @content;
-  }
-}
-
-@mixin desktop-large {
-  @media only screen and (min-width: 1071px) {
-    @content;
-  }
-}
-
 // ===============
 // Extend
 // ===============
@@ -69,6 +46,20 @@ $breakpoint-desktop: 1070px;
 // ===============
 // Mixins
 // ===============
+
+$breakpoint-desktop: 1070px;
+
+@mixin desktop-medium {
+  @media only screen and (max-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media only screen and (min-width: 1071px) {
+    @content;
+  }
+}
 
 @mixin initialize-grid($grid-gap) {
   display: grid;

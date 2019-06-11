@@ -1,8 +1,13 @@
 #navbar,
-#id,
+#main,
 #footer {
   position: relative;
   margin: 0 auto;
+}
+
+#main,
+#footer {
+  width: 90%;
 }
 
 #navbar {
