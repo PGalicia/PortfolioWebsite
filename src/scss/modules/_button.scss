@@ -10,6 +10,10 @@
   border-radius: 10px;
   margin-bottom: 100px;
 
+  > span {
+    word-wrap: break-word;
+  }
+
   &--unavailable {
     background-color: $body-accent-color-grey;
   }
