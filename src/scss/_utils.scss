@@ -34,7 +34,7 @@ $breakpoint-desktop: 1070px;
 
 %centerX-content {
   position: absolute;
-  left: 5%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -55,6 +55,15 @@ $breakpoint-desktop: 1070px;
 // ===============
 .image-container {
   overflow: hidden;
+}
+
+// @todo: ensure that font size works as variable
+// @todo: ensure that font color works as variable
+.section-label {
+  @extend %font-montserrat-style;
+  font-size: 64px;
+  color: #fd8a5b;
+  margin-bottom: 75px;
 }
 
 // ===============

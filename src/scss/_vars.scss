@@ -9,7 +9,9 @@ $font-montserrat: "Montserrat", sans-serif;
 // Font Size
 // ===============
 
-$font-size-header: 64px;
+$font-size-header-1: 64px;
+$font-size-header-2: 36px;
+$font-size-header-3: 24px;
 $font-size-body: 19px;
 $font-size-small: 14px;
 
@@ -17,6 +19,7 @@ $font-size-small: 14px;
 // Font Weight
 // ===============
 
+$font-weight-regular: 400;
 $font-weight-bold: 700;
 $font-weight-black: 900;
 
@@ -26,3 +29,4 @@ $font-weight-black: 900;
 
 $line-height-big-gap: 2.25;
 $line-height-medium-gap: 1.5;
+$line-height-small-gap: 1.15;

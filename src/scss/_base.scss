@@ -12,6 +12,8 @@ body {
   max-width: $max-body-width;
   min-width: $min-body-width;
   background-color: $background-color;
+  box-sizing: border-box;
+  padding: 0 50px;
   margin: 0 auto;
   margin-top: 10px;
   font-family: $font-karla;

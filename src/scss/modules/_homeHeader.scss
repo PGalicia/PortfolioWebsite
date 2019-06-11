@@ -1,0 +1,46 @@
+.home-header {
+  &__image,
+  &__texts {
+    margin: 0 auto;
+  }
+
+  &__image {
+    position: relative;
+    width: 652px;
+    height: 303px;
+    margin-bottom: 50px;
+
+    > img {
+      position: absolute;
+      top: -116px;
+      left: -85px;
+      transform: scale(1.06);
+    }
+  }
+
+  &__texts {
+    font-family: $font-karla;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-header-2;
+
+    > * {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__label {
+    text-align: center;
+  }
+
+  &__changing-text {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 626px;
+    white-space: nowrap;
+
+    .home-header__typewriter {
+      color: $body-accent-color;
+    }
+  }
+}

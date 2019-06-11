@@ -1,21 +1,22 @@
 import React from "react"; // React
-import "./../../../scss/homeHeader.scss"; // SCSS
 import Typed from "react-typed"; // React-Typed
 import { TYPEWRITER_TEXT } from "./../../constants/typewriterTexts.js"; // Constants
 import Header from "./../../../assets/header.svg"; // Asset
 
-const HomeHeader = props => {
+const HomeHeader = () => {
   return (
-    <>
-      <div className="header-image">
+    <section className="home-header">
+      <div className="home-header__image image-container">
         <img src={Header} />
       </div>
-      <div className="header-texts">
-        <p>I'm an Aspiring Full Stack Developer</p>
-        <div>
-          and I'm also<span> </span>
+      <div className="home-header__texts">
+        <p className="home-header__label">
+          I'm an Aspiring Full Stack Developer
+        </p>
+        <div className="home-header__changing-text">
+          and I'm also{" "}
           <Typed
-            className="typewriter"
+            className="home-header__typewriter"
             strings={TYPEWRITER_TEXT}
             typeSpeed={40}
             backSpeed={25}
@@ -25,7 +26,7 @@ const HomeHeader = props => {
           />
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

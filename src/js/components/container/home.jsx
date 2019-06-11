@@ -29,7 +29,7 @@ class Home extends Component {
     }
 
     return (
-      <section className="home-container">
+      <section className="home">
         {/* Home Navigation Bar */}
         <NavBar inHome={true} />
 

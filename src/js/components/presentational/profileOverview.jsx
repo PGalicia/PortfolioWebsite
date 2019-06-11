@@ -1,5 +1,4 @@
 import React from "react"; // React
-// import "./../../../scss/profileOverview.scss"; // SCSS
 import Profile from "./../../../assets/profile.jpg"; // Asset
 import Github from "./../../../assets/icons/github.svg"; // Asset
 import Instagram from "./../../../assets/icons/instagram.svg"; // Asset

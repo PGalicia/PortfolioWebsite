@@ -1,5 +1,4 @@
 import React, { Component } from "react"; // React
-import "./../../../scss/about.scss"; // SCSS
 import NavBar from "./../presentational/navBar.jsx"; // Component
 import ProfileOverview from "./../presentational/profileOverview.jsx"; // Component
 import Experience from "./../presentational/experience.jsx"; // Component
@@ -16,7 +15,7 @@ class About extends Component {
 
   render() {
     return (
-      <section className="about-container">
+      <section className="about">
         {/* Navigation Component */}
         <NavBar inHome={false} />
 
@@ -29,10 +28,10 @@ class About extends Component {
         {/* Toolbox Component */}
         <Skill skills={SKILLS} />
 
-        <p>
+        <p className="about__subtext">
           If you have any questions or just want to say hi, please email me @{" "}
-          <span>galicia.patrick@gmail.com</span>. If you just want my resume,
-          here you go...
+          <span className="about__email">galicia.patrick@gmail.com</span>. If
+          you just want my resume, here you go...
         </p>
 
         {/* To my Resume Button */}

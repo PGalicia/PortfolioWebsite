@@ -1,25 +1,28 @@
 import React from "react"; // React
-import "./../../../scss/experience.scss"; // SCSS
 
 const Experience = props => {
   return (
-    <section className="experiences-container">
-      <h2>
+    <section className="experiences">
+      <h2 className="experiences__label section-label">
         Technical
         <br />
         Experience.
       </h2>
       {props.experiences.map(experience => {
         return (
-          <div className="experience-container" key={experience.company}>
-            <h3>{experience.position}</h3>
-            <h4>{experience.company}</h4>
-            <h6>
+          <div className="experiences__card" key={experience.company}>
+            <h3 className="experiences__position">{experience.position}</h3>
+            <h4 className="experiences__company">{experience.company}</h4>
+            <h6 className="experiences__locationDate">
               {`${experience.location}`} &bull; {`${experience.date}`}
             </h6>
-            <ul>
+            <ul className="experiences__contributions">
               {experience.contributions.map(contribution => {
-                return <li key={contribution}>{contribution}</li>;
+                return (
+                  <li className="experiences__statement" key={contribution}>
+                    {contribution}
+                  </li>
+                );
               })}
             </ul>
           </div>

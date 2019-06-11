@@ -31,7 +31,7 @@
   &__header {
     font-weight: $font-weight-black;
     color: $body-accent-color;
-    font-size: $font-size-header;
+    font-size: $font-size-header-1;
     @extend %font-montserrat-style;
     margin: 10px 0;
     margin-bottom: 15px;
@@ -59,8 +59,10 @@
   }
 
   &__email {
-    margin: 10px 0;
-    margin-bottom: 35px;
+    font-size: $font-size-header-2;
+    color: $body-accent-color-red;
+    font-weight: $font-weight-bold;
+    margin: 10px 0 35px;
   }
 
   &__icon {

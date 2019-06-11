@@ -1,6 +1,4 @@
-@import "utils";
-
-.projects-container {
+.project-list {
   position: relative;
   width: 652px;
   margin: 125px auto;
@@ -9,28 +7,14 @@
   grid-template-columns: 213px auto 209px;
   grid-gap: 10px;
 
-  .project-container {
+  &__card {
     position: relative;
     box-sizing: border-box;
     padding: 15px;
     cursor: pointer;
-    overflow: hidden;
 
-    img {
+    > img {
       position: absolute;
-    }
-
-    h3 {
-      color: $body-font-color-white;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 900;
-      font-size: 36px;
-      letter-spacing: 3px;
-      z-index: 5;
-    }
-
-    p {
-      color: $body-accent-color-red;
     }
 
     &#event-planner {
@@ -85,5 +69,18 @@
         right: 48px;
       }
     }
+  }
+
+  &__project-name {
+    color: $body-font-color-white;
+    font-family: $font-montserrat;
+    font-weight: $font-weight-black;
+    font-size: $font-size-header-2;
+    letter-spacing: 2px;
+    z-index: 5;
+  }
+
+  &__project-description {
+    color: $body-accent-color-red;
   }
 }

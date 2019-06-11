@@ -1,0 +1,34 @@
+.experiences {
+  &__card {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  &__position {
+    font-size: $font-size-header-2;
+    color: $body-accent-color-red;
+    font-weight: $font-weight-bold;
+  }
+
+  &__company {
+    font-size: $font-size-header-3;
+    margin-bottom: 3px;
+  }
+
+  &__locationDate {
+    font-size: $font-size-body;
+    font-weight: $font-weight-regular;
+    color: $body-accent-color-grey;
+  }
+
+  &__contributions {
+    margin: 50px 0;
+    padding-left: 75px;
+  }
+
+  &__statement {
+    font-size: $font-size-body;
+    margin-bottom: 10px;
+  }
+}
